@@ -1,63 +1,62 @@
 backend:
   name: git-gateway
   branch: main
-locale: bn
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 collections:
-  - name: site
-    label: ওয়েবসাইট কনটেন্ট
+  - name: "site"
+    label: "Website Content"
     files:
-      - label: সম্পূর্ণ ওয়েবসাইট
-        name: home
-        file: content/site.json
+      - label: "Whole Website"
+        name: "home"
+        file: "content/site.json"
         fields:
-          - {label: নাম, name: name, widget: string}
-          - {label: পেশা/টাইটেল, name: role, widget: string}
-          - {label: ভূমিকা (হিরো লেখা), name: intro, widget: text}
-          - {label: হিরো ছবি, name: hero_image, widget: image}
-          - {label: পরিচিতি শিরোনাম, name: about_title, widget: string}
-          - {label: পরিচিতি লেখা, name: about_text, widget: text}
-          - {label: পরিচিতি ছবি, name: about_image, widget: image}
-          - label: পরিসংখ্যান
-            name: stats
-            widget: list
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Role / Title", name: "role", widget: "string" }
+          - { label: "Hero intro text", name: "intro", widget: "text" }
+          - { label: "Hero image", name: "hero_image", widget: "image" }
+          - { label: "About heading", name: "about_title", widget: "string" }
+          - { label: "About text", name: "about_text", widget: "text" }
+          - { label: "About image", name: "about_image", widget: "image" }
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
             fields:
-              - {label: সংখ্যা, name: number, widget: string}
-              - {label: লেবেল, name: label, widget: string}
-          - label: সার্ভিস
-            name: services
-            widget: list
+              - { label: "Number", name: "number", widget: "string" }
+              - { label: "Label", name: "label", widget: "string" }
+          - label: "Services"
+            name: "services"
+            widget: "list"
             fields:
-              - {label: "আইকন (Font Awesome ক্লাস)", name: icon, widget: string, default: "fa-solid fa-star"}
-              - {label: শিরোনাম, name: title, widget: string}
-              - {label: বিবরণ, name: text, widget: text}
-          - label: দক্ষতা
-            name: skills
-            widget: list
+              - { label: "Icon (Font Awesome class)", name: "icon", widget: "string", default: "fa-solid fa-star" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "text", widget: "text" }
+          - label: "Skills"
+            name: "skills"
+            widget: "list"
             fields:
-              - {label: নাম, name: name, widget: string}
-              - {label: "শতাংশ (০-১০০)", name: level, widget: number, min: 0, max: 100}
-          - label: প্রজেক্ট
-            name: projects
-            widget: list
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Level (0 to 100)", name: "level", widget: "number", min: 0, max: 100 }
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
             fields:
-              - {label: শিরোনাম, name: title, widget: string}
-              - {label: ক্যাটেগরি, name: tag, widget: string}
-              - {label: ছবি, name: image, widget: image, required: false}
-              - {label: কনসেপ্ট ডিজাইন? (টিক দিলে Concept লেখা দেখাবে), name: demo, widget: boolean, default: false, required: false}
-              - {label: ডেমো কার্ডের রঙ (যেমন #0e7c66), name: color, widget: string, required: false}
-              - {label: লাইভ ওয়েবসাইট লিংক (আসল প্রজেক্ট হলে), name: link, widget: string, required: false}
-              - {label: প্রিভিউ হেডলাইন (কনসেপ্ট), name: headline, widget: string, required: false}
-              - {label: প্রিভিউ সাব-লাইন (কনসেপ্ট), name: sub, widget: string, required: false}
-              - {label: প্রিভিউ ফিচার (৩টি), name: features, widget: list, required: false, field: {label: ফিচার, name: feature, widget: string}}
-          - label: রিভিউ
-            name: reviews
-            widget: list
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "tag", widget: "string" }
+              - { label: "Image", name: "image", widget: "image", required: false }
+              - { label: "Concept design? (tick to show the Concept label)", name: "demo", widget: "boolean", default: false, required: false }
+              - { label: "Card colour for concept (example: #0e7c66)", name: "color", widget: "string", required: false }
+              - { label: "Live website link (for real projects)", name: "link", widget: "string", required: false }
+              - { label: "Preview headline (concept)", name: "headline", widget: "string", required: false }
+              - { label: "Preview subline (concept)", name: "sub", widget: "string", required: false }
+              - { label: "Preview features (3 items)", name: "features", widget: "list", required: false, field: { label: "Feature", name: "feature", widget: "string" } }
+          - label: "Reviews"
+            name: "reviews"
+            widget: "list"
             fields:
-              - {label: নাম, name: name, widget: string}
-              - {label: রিভিউ, name: text, widget: text}
-          - {label: ইমেইল, name: email, widget: string}
-          - {label: ফোন নম্বর, name: phone, widget: string}
-          - {label: ফেসবুক লিংক (ঐচ্ছিক), name: facebook, widget: string, required: false}
-          - {label: লিংকডইন লিংক (ঐচ্ছিক), name: linkedin, widget: string, required: false}
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Review", name: "text", widget: "text" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Phone", name: "phone", widget: "string" }
+          - { label: "Facebook link (optional)", name: "facebook", widget: "string", required: false }
+          - { label: "LinkedIn link (optional)", name: "linkedin", widget: "string", required: false }
