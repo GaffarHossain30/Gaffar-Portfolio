@@ -1,0 +1,325 @@
+{
+ "name": "Gaffar Hossain",
+ "role": "WordPress Developer & Digital Marketing Specialist",
+ "intro": "I build fast, modern WordPress websites for growing businesses, then bring in leads and sales with Facebook, Google, Instagram and YouTube ad campaigns.",
+ "hero_image": "assets/hero.png",
+ "about_title": "From building your website to running your ads, all in one place",
+ "about_text": "I’m Gaffar Hossain, a professional WordPress developer and digital marketer. I combine website design, SEO and advertising campaigns into one complete solution, so your business gets seen online and attracts more customers.",
+ "about_image": "assets/about.jpg",
+ "stats": [
+  {
+   "number": "200+",
+   "label": "Projects completed"
+  },
+  {
+   "number": "190+",
+   "label": "Satisfied clients"
+  },
+  {
+   "number": "04+",
+   "label": "Years of experience"
+  }
+ ],
+ "services": [
+  {
+   "icon": "fa-brands fa-wordpress",
+   "title": "WordPress Websites",
+   "text": "Fast, mobile-friendly websites that are easy for you to manage."
+  },
+  {
+   "icon": "fa-solid fa-magnifying-glass-chart",
+   "title": "SEO",
+   "text": "Rank higher on Google and bring in steady organic traffic."
+  },
+  {
+   "icon": "fa-brands fa-facebook",
+   "title": "Facebook Ads",
+   "text": "Reach the right audience and turn clicks into leads and sales."
+  },
+  {
+   "icon": "fa-brands fa-google",
+   "title": "Google Ads",
+   "text": "Search and YouTube campaigns that bring customers straight to you."
+  },
+  {
+   "icon": "fa-brands fa-instagram",
+   "title": "Instagram Ads",
+   "text": "Visual campaigns that grow brand awareness and engagement."
+  },
+  {
+   "icon": "fa-brands fa-pinterest",
+   "title": "Pinterest Marketing",
+   "text": "Drive traffic and sales to your website from Pinterest."
+  }
+ ],
+ "skills": [
+  {
+   "name": "WordPress",
+   "level": 99
+  },
+  {
+   "name": "SEO",
+   "level": 95
+  },
+  {
+   "name": "Facebook Ads",
+   "level": 90
+  },
+  {
+   "name": "Google Ads",
+   "level": 89
+  },
+  {
+   "name": "Instagram Ads",
+   "level": 95
+  },
+  {
+   "name": "YouTube Marketing",
+   "level": 90
+  }
+ ],
+ "projects": [
+  {
+   "title": "WordPress Website Development",
+   "tag": "Website",
+   "image": "assets/projects/wordpress.jpg",
+   "demo": false,
+   "color": "",
+   "link": ""
+  },
+  {
+   "title": "Facebook Ads Campaign",
+   "tag": "Advertising",
+   "image": "assets/projects/facebook.jpg",
+   "demo": false,
+   "color": "",
+   "link": ""
+  },
+  {
+   "title": "Search Engine Optimization",
+   "tag": "SEO",
+   "image": "assets/projects/seo.jpg",
+   "demo": false,
+   "color": "",
+   "link": ""
+  },
+  {
+   "title": "Instagram Ads",
+   "tag": "Advertising",
+   "image": "assets/projects/instagram.jpg",
+   "demo": false,
+   "color": "",
+   "link": ""
+  },
+  {
+   "title": "Google Ads",
+   "tag": "Advertising",
+   "image": "assets/projects/google.jpg",
+   "demo": false,
+   "color": "",
+   "link": ""
+  },
+  {
+   "title": "Pinterest Marketing",
+   "tag": "Marketing",
+   "image": "assets/projects/pinterest.jpg",
+   "demo": false,
+   "color": "",
+   "link": ""
+  },
+  {
+   "title": "Spice Garden – Restaurant Website",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#d9480f",
+   "headline": "Authentic flavours, served fresh.",
+   "sub": "Book a table or order online in seconds.",
+   "features": [
+    "Online ordering",
+    "Table booking",
+    "Chef specials"
+   ],
+   "link": ""
+  },
+  {
+   "title": "Urban Nest – Real Estate Website",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#0b7285",
+   "headline": "Find a home you’ll love.",
+   "sub": "Browse verified listings with virtual tours.",
+   "features": [
+    "Smart search",
+    "Virtual tours",
+    "Agent chat"
+   ],
+   "link": ""
+  },
+  {
+   "title": "Luxe Threads – Fashion eCommerce",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#7048e8",
+   "headline": "Style that moves with you.",
+   "sub": "The new season collection, delivered to your door.",
+   "features": [
+    "New arrivals",
+    "Easy returns",
+    "Secure checkout"
+   ],
+   "link": ""
+  },
+  {
+   "title": "IronFit – Gym & Fitness Website",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#c92a2a",
+   "headline": "Build strength. Build habits.",
+   "sub": "Classes, coaches and plans that fit your week.",
+   "features": [
+    "Group classes",
+    "Personal coaching",
+    "Member app"
+   ],
+   "link": ""
+  },
+  {
+   "title": "BrightSmile – Dental Clinic Website",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#1098ad",
+   "headline": "Healthy smiles start here.",
+   "sub": "Book a check-up with our friendly dental team.",
+   "features": [
+    "Online booking",
+    "Teeth whitening",
+    "Family care"
+   ],
+   "link": ""
+  },
+  {
+   "title": "Wanderlust – Travel Agency Website",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#1c7ed6",
+   "headline": "Your next adventure awaits.",
+   "sub": "Handpicked tours and flexible travel packages.",
+   "features": [
+    "Curated tours",
+    "Flexible dates",
+    "24/7 support"
+   ],
+   "link": ""
+  },
+  {
+   "title": "Justice & Co. – Law Firm Website",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#1d3557",
+   "headline": "Trusted counsel, clear results.",
+   "sub": "Experienced advocates for people and businesses.",
+   "features": [
+    "Free consultation",
+    "Corporate law",
+    "Family law"
+   ],
+   "link": ""
+  },
+  {
+   "title": "EduPath – Online Course Platform",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#2f9e44",
+   "headline": "Learn skills that matter.",
+   "sub": "Self-paced courses with mentors and certificates.",
+   "features": [
+    "Video lessons",
+    "Live mentors",
+    "Certificates"
+   ],
+   "link": ""
+  },
+  {
+   "title": "Lens & Light – Photography Portfolio",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#343a40",
+   "headline": "Moments, beautifully told.",
+   "sub": "Portraits, weddings and brand photography.",
+   "features": [
+    "Portraits",
+    "Weddings",
+    "Brand shoots"
+   ],
+   "link": ""
+  },
+  {
+   "title": "CoinVault – Crypto Landing Page",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#f08c00",
+   "headline": "Trade with confidence.",
+   "sub": "A secure wallet with live prices and low fees.",
+   "features": [
+    "Secure wallet",
+    "Live prices",
+    "Low fees"
+   ],
+   "link": ""
+  },
+  {
+   "title": "CloudSuite – SaaS Landing Page",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#5f3dc4",
+   "headline": "Run your team in one place.",
+   "sub": "Projects, docs and chat that sync in real time.",
+   "features": [
+    "Task boards",
+    "Team chat",
+    "Analytics"
+   ],
+   "link": ""
+  },
+  {
+   "title": "Haven – Interior Design Website",
+   "tag": "Website",
+   "image": "",
+   "demo": true,
+   "color": "#a8763e",
+   "headline": "Interiors that feel like home.",
+   "sub": "Design consultations from concept to delivery.",
+   "features": [
+    "3D concepts",
+    "Material sourcing",
+    "Full installation"
+   ],
+   "link": ""
+  }
+ ],
+ "reviews": [
+  {
+   "name": "Michael Johnson",
+   "text": "Gaffar created an amazing WordPress website for my business. The design looks modern, professional, and works perfectly on mobile devices."
+  },
+  {
+   "name": "Rabeya",
+   "text": "Our Facebook Ads campaign performed incredibly well. We received more leads and engagement within just a few days."
+  }
+ ],
+ "email": "gaffarhossain30@gmail.com",
+ "phone": "01970715797",
+ "facebook": "",
+ "linkedin": ""
+}
