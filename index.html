@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gaffar Hossain | WordPress Developer & Digital Marketer</title>
+<meta name="description" content="WordPress website development, SEO and digital marketing services by Gaffar Hossain">
+<link rel="icon" href="assets/favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.className='js'</script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head><body>
+<header id="hd"><div class="w nav">
+<a href="#home" class="brand"><span class="mark">G</span><span id="logo">Gaffar Hossain</span></a>
+<nav id="nav" aria-label="Main"><ul>
+<li><a href="#home" class="on">Home</a></li><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#reviews">Reviews</a></li></ul></nav>
+<a class="btn hcta" href="#contact">Contact me <i class="fa-solid fa-arrow-right"></i></a>
+<button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="w hero-g">
+<div class="hero-t"><p class="hi">Hi there! <span class="wave">👋</span> I’m</p><h1 id="name"></h1><h2 id="role"></h2><p class="lead" id="intro"></p>
+<div class="cta"><a class="btn" href="#projects">View my work <i class="fa-solid fa-arrow-right"></i></a><a class="btn o" href="#contact">Contact me</a></div>
+<div class="find"><span>Find me on</span><div class="soc lt" id="heroSoc"></div></div></div>
+<div class="hero-v"><span class="glow"></span>
+<svg class="art" viewBox="0 0 500 560" role="img" aria-label="Gaffar Hossain"><defs><linearGradient id="gb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset="1" stop-color="#ffb41f"/></linearGradient><clipPath id="cp"><path d="M262 62C360 40 452 96 468 190C480 262 440 300 452 368C466 446 400 508 310 512C232 516 196 486 130 470C58 452 22 392 36 318C48 254 86 232 76 166C66 104 150 84 262 62Z"/><rect x="0" y="0" width="500" height="175"/></clipPath></defs>
+<g class="fl"><path d="M262 62C360 40 452 96 468 190C480 262 440 300 452 368C466 446 400 508 310 512C232 516 196 486 130 470C58 452 22 392 36 318C48 254 86 232 76 166C66 104 150 84 262 62Z" fill="url(#gb)"/><image id="heroImg" x="18" y="8" width="464" height="552" preserveAspectRatio="xMidYMax meet" clip-path="url(#cp)"/></g></svg>
+<span class="chip c1"><i class="dot"></i>Available for freelance</span><span class="chip c2"><i class="fa-solid fa-trophy"></i><b id="chipNum"></b> projects done</span>
+<span class="fi f1"><i class="fa-brands fa-wordpress"></i></span><span class="fi f2"><i class="fa-solid fa-chart-line"></i></span><span class="fi f3"><i class="fa-solid fa-bullhorn"></i></span>
+<span class="sp s1"></span><span class="sp s2"></span><span class="sp s3"></span><span class="dots"></span></div></div>
+<div class="w"><div class="glance">
+<div><h4><i class="fa-regular fa-user"></i>About me</h4><p id="hAbout"></p><a class="btn o sm" href="#about">More about me</a></div>
+<div><h4><i class="fa-solid fa-code"></i>Top skills</h4><div id="hSkills"></div></div>
+<div><h4><i class="fa-solid fa-briefcase"></i>Projects</h4><div id="hProjects"></div></div></div></div></section>
+
+<section id="about"><div class="w about"><img class="reveal" id="aboutImg" alt="Gaffar Hossain, WordPress developer">
+<div><h3 class="t" id="aboutTitle"></h3><p id="aboutText"></p><div class="stats" id="stats"></div></div></div></section>
+
+<section class="alt" id="services"><div class="w"><h3 class="t reveal">What I can do for <em>you</em></h3><div class="grid" id="serviceList"></div></div></section>
+
+<section id="skills"><div class="w"><h3 class="t reveal">My <em>skills</em></h3><div class="skills" id="skillList"></div></div></section>
+
+<section class="alt" id="projects"><div class="w"><h3 class="t reveal">Selected <em>work</em></h3><p class="sub">Real campaign creatives plus concept website designs. Click any project to preview it.</p><div class="filters" id="filters"></div><div class="grid pg" id="projectList"></div><button class="btn o more" id="more" hidden>Show more projects</button></div></section>
+
+<section id="reviews"><div class="w"><h3 class="t reveal">What clients <em>say</em></h3><div class="grid" id="reviewList"></div></div></section>
+
+<section class="alt" id="contact"><div class="w contact">
+<div><h3 class="t reveal">Let’s talk about <em>your project</em></h3><p>Tell me about your project and I’ll reply quickly.</p>
+<ul class="info"><li><i class="fa-solid fa-envelope"></i><a id="mail"></a></li><li><i class="fa-solid fa-phone"></i><a id="tel"></a></li><li><i class="fa-brands fa-whatsapp"></i><a id="wa" target="_blank" rel="noopener">Message me on WhatsApp</a></li></ul></div>
+<form class="reveal" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot">
+<input type="hidden" name="form-name" value="contact"><p hidden><label>Leave this empty <input name="bot"></label></p>
+<label>Your name<input name="name" required></label>
+<label>Email<input type="email" name="email" required></label>
+<label>Message<textarea name="message" rows="5" required></textarea></label>
+<button class="btn" type="submit">Send message</button></form></div></section>
+</main>
+<dialog id="pm" aria-label="Project preview"><div class="pmh"><div><small id="pmTag"></small><h3 id="pmTitle"></h3></div><button id="pmX" aria-label="Close"><i class="fa-solid fa-xmark"></i></button></div><div class="pmb" id="pmBody"></div><div class="pmf"><p id="pmNote"></p><a class="btn" id="pmCta" href="#contact">Request a similar website</a></div></dialog>
+<footer><div class="w">
+<div class="fcta"><div><h3>Have a project in mind?</h3><p>Let’s build something that grows your business.</p></div><a class="btn light" href="#contact">Start a project</a></div>
+<div class="fcols">
+<div><a class="logo" href="#home" id="flogo">Gaffar Hossain</a><p>WordPress developer and digital marketer helping businesses grow online.</p><div class="soc" id="soc"></div></div>
+<div><h5>Quick links</h5><ul><li><a href="#about">About</a></li><li><a href="#services">Services</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#reviews">Reviews</a></li></ul></div>
+<div><h5>Services</h5><ul id="fServices"></ul></div>
+<div><h5>Contact</h5><ul><li><a id="fmail"></a></li><li><a id="ftel"></a></li><li>Available worldwide, remote</li></ul></div>
+</div>
+<div class="fbar"><span id="foot"></span><a href="#home">Back to top ↑</a></div></div></footer>
+<script type="application/json" id="seed">{"name": "Gaffar Hossain", "role": "WordPress Developer & Digital Marketing Specialist", "intro": "I build fast, modern WordPress websites for growing businesses, then bring in leads and sales with Facebook, Google, Instagram and YouTube ad campaigns.", "hero_image": "assets/hero.png", "about_title": "From building your website to running your ads, all in one place", "about_text": "I’m Gaffar Hossain, a professional WordPress developer and digital marketer. I combine website design, SEO and advertising campaigns into one complete solution, so your business gets seen online and attracts more customers.", "about_image": "assets/about.jpg", "stats": [{"number": "200+", "label": "Projects completed"}, {"number": "190+", "label": "Satisfied clients"}, {"number": "04+", "label": "Years of experience"}], "services": [{"icon": "fa-brands fa-wordpress", "title": "WordPress Websites", "text": "Fast, mobile-friendly websites that are easy for you to manage."}, {"icon": "fa-solid fa-magnifying-glass-chart", "title": "SEO", "text": "Rank higher on Google and bring in steady organic traffic."}, {"icon": "fa-brands fa-facebook", "title": "Facebook Ads", "text": "Reach the right audience and turn clicks into leads and sales."}, {"icon": "fa-brands fa-google", "title": "Google Ads", "text": "Search and YouTube campaigns that bring customers straight to you."}, {"icon": "fa-brands fa-instagram", "title": "Instagram Ads", "text": "Visual campaigns that grow brand awareness and engagement."}, {"icon": "fa-brands fa-pinterest", "title": "Pinterest Marketing", "text": "Drive traffic and sales to your website from Pinterest."}], "skills": [{"name": "WordPress", "level": 99}, {"name": "SEO", "level": 95}, {"name": "Facebook Ads", "level": 90}, {"name": "Google Ads", "level": 89}, {"name": "Instagram Ads", "level": 95}, {"name": "YouTube Marketing", "level": 90}], "projects": [{"title": "WordPress Website Development", "tag": "Website", "image": "assets/projects/wordpress.jpg", "demo": false, "color": "", "link": ""}, {"title": "Facebook Ads Campaign", "tag": "Advertising", "image": "assets/projects/facebook.jpg", "demo": false, "color": "", "link": ""}, {"title": "Search Engine Optimization", "tag": "SEO", "image": "assets/projects/seo.jpg", "demo": false, "color": "", "link": ""}, {"title": "Instagram Ads", "tag": "Advertising", "image": "assets/projects/instagram.jpg", "demo": false, "color": "", "link": ""}, {"title": "Google Ads", "tag": "Advertising", "image": "assets/projects/google.jpg", "demo": false, "color": "", "link": ""}, {"title": "Pinterest Marketing", "tag": "Marketing", "image": "assets/projects/pinterest.jpg", "demo": false, "color": "", "link": ""}, {"title": "Spice Garden – Restaurant Website", "tag": "Website", "image": "", "demo": true, "color": "#d9480f", "headline": "Authentic flavours, served fresh.", "sub": "Book a table or order online in seconds.", "features": ["Online ordering", "Table booking", "Chef specials"], "link": ""}, {"title": "Urban Nest – Real Estate Website", "tag": "Website", "image": "", "demo": true, "color": "#0b7285", "headline": "Find a home you’ll love.", "sub": "Browse verified listings with virtual tours.", "features": ["Smart search", "Virtual tours", "Agent chat"], "link": ""}, {"title": "Luxe Threads – Fashion eCommerce", "tag": "Website", "image": "", "demo": true, "color": "#7048e8", "headline": "Style that moves with you.", "sub": "The new season collection, delivered to your door.", "features": ["New arrivals", "Easy returns", "Secure checkout"], "link": ""}, {"title": "IronFit – Gym & Fitness Website", "tag": "Website", "image": "", "demo": true, "color": "#c92a2a", "headline": "Build strength. Build habits.", "sub": "Classes, coaches and plans that fit your week.", "features": ["Group classes", "Personal coaching", "Member app"], "link": ""}, {"title": "BrightSmile – Dental Clinic Website", "tag": "Website", "image": "", "demo": true, "color": "#1098ad", "headline": "Healthy smiles start here.", "sub": "Book a check-up with our friendly dental team.", "features": ["Online booking", "Teeth whitening", "Family care"], "link": ""}, {"title": "Wanderlust – Travel Agency Website", "tag": "Website", "image": "", "demo": true, "color": "#1c7ed6", "headline": "Your next adventure awaits.", "sub": "Handpicked tours and flexible travel packages.", "features": ["Curated tours", "Flexible dates", "24/7 support"], "link": ""}, {"title": "Justice & Co. – Law Firm Website", "tag": "Website", "image": "", "demo": true, "color": "#1d3557", "headline": "Trusted counsel, clear results.", "sub": "Experienced advocates for people and businesses.", "features": ["Free consultation", "Corporate law", "Family law"], "link": ""}, {"title": "EduPath – Online Course Platform", "tag": "Website", "image": "", "demo": true, "color": "#2f9e44", "headline": "Learn skills that matter.", "sub": "Self-paced courses with mentors and certificates.", "features": ["Video lessons", "Live mentors", "Certificates"], "link": ""}, {"title": "Lens & Light – Photography Portfolio", "tag": "Website", "image": "", "demo": true, "color": "#343a40", "headline": "Moments, beautifully told.", "sub": "Portraits, weddings and brand photography.", "features": ["Portraits", "Weddings", "Brand shoots"], "link": ""}, {"title": "CoinVault – Crypto Landing Page", "tag": "Website", "image": "", "demo": true, "color": "#f08c00", "headline": "Trade with confidence.", "sub": "A secure wallet with live prices and low fees.", "features": ["Secure wallet", "Live prices", "Low fees"], "link": ""}, {"title": "CloudSuite – SaaS Landing Page", "tag": "Website", "image": "", "demo": true, "color": "#5f3dc4", "headline": "Run your team in one place.", "sub": "Projects, docs and chat that sync in real time.", "features": ["Task boards", "Team chat", "Analytics"], "link": ""}, {"title": "Haven – Interior Design Website", "tag": "Website", "image": "", "demo": true, "color": "#a8763e", "headline": "Interiors that feel like home.", "sub": "Design consultations from concept to delivery.", "features": ["3D concepts", "Material sourcing", "Full installation"], "link": ""}], "reviews": [{"name": "Michael Johnson", "text": "Gaffar created an amazing WordPress website for my business. The design looks modern, professional, and works perfectly on mobile devices."}, {"name": "Rabeya", "text": "Our Facebook Ads campaign performed incredibly well. We received more leads and engagement within just a few days."}], "email": "gaffarhossain30@gmail.com", "phone": "01970715797", "facebook": "", "linkedin": ""}</script>
+<script src="script.js"></script>
+</body></html>
